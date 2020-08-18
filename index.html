@@ -184,7 +184,14 @@
             font-weight:bold;
 
         }
-
+@media screen and (max-width: 479px) {
+    .banner img {
+        display:none;
+    }
+    .banner::before {
+        content: url(banner2.png);
+    }
+}
 
         /* footer */
 
