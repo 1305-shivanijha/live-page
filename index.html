@@ -32,15 +32,13 @@
         /* header */
 
         .header {
-            background-color: white;
+            background-color: #fff;
             box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
             position: fixed;
             width: 100%;
-           
+            z-index: 3;
             padding-right: 20px;
             margin-right: 0px;
-            height:auto
-            
         }
 
         .header ul {
@@ -186,28 +184,6 @@
             font-weight:bold;
 
         }
-        
-        
-     .banner{
-background-image: url("https://dev.mymedisage.com/images/live_event_banner_image/__Thyro-Banners-30-May-290520-New.jpg" );
-height:70px;
-
-
-
-}
-
-
-@media only screen and (max-width: 600px) {
-  .banner {
-  margin-top:0px;
-    background-image: url("https://dev.mymedisage.com/images/live_event_banner_image/_300_X_50.png");
-    height:50px;
-    
-    
-    
-    background-repeat: no-repeat;
-  }
-}   
 
 
         /* footer */
@@ -377,10 +353,26 @@ padding-left:50px;
   height: 100%;
   border: none;
 }
+.banner{
+background-image: url("https://dev.mymedisage.com/images/live_event_banner_image/__Thyro-Banners-30-May-290520-New.jpg" );
+height:170px;
 
+}
+@media only screen and (max-width: 600px) {
+  .banner {
+  padding-top:45px;
+  margin-top:120px;
+    background-image: url("https://dev.mymedisage.com/images/live_event_banner_image/_300_X_50.png" );
+    
+    
+    
+    
+    background-repeat: no-repeat;
+  }
+}   
     </style>
 </head>
-<body>
+
 <header class="header">
     <a href="" class="logo"><img src=logo12.png alt="" width="150" height="70"/></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -394,28 +386,23 @@ padding-left:50px;
         <li><a href="#contact">REGISTER</a></li>
     </ul>
 </header>
-
 break;
+<body>
 
-<div class="banner"style="margin-top:40px;">>
 
-<p>njnnv</p>
+<div class="banner" style="height:60px; margin-top:50px;">
+
 
 </div>
-</div>
-
 
 <!-- container-column 1-->
 <div class="row">
-
-
-
   <div class="column1" style="background-color:white;">
 <div class="containerf"> 
   <iframe class="responsive-iframe" src="https://player.vimeo.com/video/439677135"></iframe>
-</div> 
+
+  </div> 
   </div>
-  
   
   <!--container- column 2-->
   
@@ -445,7 +432,6 @@ break;
     height:auto;
     width:100%;
     /*position: relative;*/
-
     /*height:560px;   !* Height of the footer *!*/
     background : pink;
 ">
@@ -564,5 +550,5 @@ break;
 
             </div>
         </div>
-</body>
+
 </html>
